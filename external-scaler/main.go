@@ -6,7 +6,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/snwight/sre-interview-exercises/externalscaler/pkg/externalscaler"
+	pb "externalscaler/pkg/externalscaler"
 
 	// "log"
 	// "net"

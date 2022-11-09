@@ -1,4 +1,4 @@
-module github.com/snwight/sre-interview-exercises/externalscaler
+module externalscaler
 
 go 1.19
 
