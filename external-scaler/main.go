@@ -49,7 +49,7 @@ func (e *ExternalScaler) StreamIsActive(scaledObject *pb.ScaledObjectRef, epsSer
 			// call cancelled
 			return nil
 		case <-time.Tick(time.Hour * 1):
-			err := epsServer.Send(&pb.IsActiveResponse{
+			_ = epsServer.Send(&pb.IsActiveResponse{
 				Result: true,
 			})
 		}
